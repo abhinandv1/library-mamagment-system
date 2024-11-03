@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($conn->query($insertUserQuery) === TRUE) {
             echo "<script>
                     alert('Registration successful! You can now log in.');
-                    window.location.href = 'index   .php';
+                    window.location.href = 'index.php';
                   </script>";
             exit;
         } else {
